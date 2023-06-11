@@ -30,6 +30,7 @@ nav {
 }
 
 .logo {
+  display: block;
   width: 90%;
   margin: 20% auto;
   cursor: pointer;
@@ -38,7 +39,7 @@ nav {
 }
 
 nav img {
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
 }
 
 /* animación de la imgan */
@@ -115,6 +116,11 @@ p {
 
 .h1-nombre {
   font-size: 60px;
+  margin-bottom: 2px;
+}
+
+.p-description {
+  margin-bottom: 80px;
 }
 
 .page {

@@ -13,7 +13,7 @@ a {
 body {
   display: flex;
   /* background-color: #332b47; */
-  background-image: linear-gradient(#332b47, #19112b);
+  background-image: linear-gradient(#252641, #11132b);
 }
 
 nav {
@@ -21,7 +21,7 @@ nav {
   width: 250px;
   height: 100vh;
   /* background-color: #524571; */
-  background-image: linear-gradient(#524571, #1e1533);
+  background-image: linear-gradient(#252641, #11132b);
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ nav .menu a {
 
 nav .menu a:hover,
 nav .menu a.selected {
-  background: #332b47;
+  background: #18102a;
   color: turquoise;
 }
 
@@ -103,11 +103,12 @@ html {
 h1 {
   color: rgb(232, 102, 228);
   font-size: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 h2 {
-  color: rgb(113, 212, 179);
+  color: rgb(113, 162, 212);
+  margin-top: 30px;
 }
 
 p {
@@ -120,13 +121,28 @@ p {
 }
 
 .p-description {
-  margin-bottom: 80px;
+  margin-bottom: 15px;
+}
+
+.p-cv {
+  margin-top: 60px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #18102a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px;
 }
 
 .page {
   margin-left: 5%;
-  padding-top: 15%;
+  padding-top: 10%;
   height: 100vh;
+  margin-right: 30%;
 }
 
 .line {

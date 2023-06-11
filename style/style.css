@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  /* background-color: #332b47; */
+  background-image: linear-gradient(#332b47, #19112b);
+}
+
+nav {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  /* background-color: #524571; */
+  background-image: linear-gradient(#524571, #1e1533);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.logo {
+  width: 90%;
+  margin: 20% auto;
+  cursor: pointer;
+  transition: all 0.3s; /* animación de la imgan */
+  border-radius: 50%;
+}
+
+nav img {
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* animación de la imgan */
+nav img:hover {
+  transform: scale(1.02);
+}
+
+nav .menu {
+  display: flex;
+  flex-direction: column;
+  height: 90%; /* separación entre el logo y el texto de enlaces */
+  padding: 10px 0;
+}
+
+nav .menu a {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  transition: all 0.5s;
+}
+
+/* div[id] {
+  border: 4px solid red;
+} */
+
+/* .observer-root-margin {
+  pointer-events: none;
+  z-index: 1000;
+  border: 4px solid blue;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+nav .menu a:hover,
+nav .menu a.selected {
+  background: #332b47;
+  color: turquoise;
+}
+
+/* Erik Luna Morán*/
+
+/* generales */
+.contenido {
+  flex: 1;
+  margin-left: 250px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: rgb(232, 102, 228);
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  color: rgb(113, 212, 179);
+}
+
+p {
+  color: rgb(96, 182, 153);
+}
+
+.h1-nombre {
+  font-size: 60px;
+}
+
+.page {
+  margin-left: 5%;
+  padding-top: 15%;
+  height: 100vh;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
